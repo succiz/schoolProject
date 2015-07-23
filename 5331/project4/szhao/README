@@ -1,0 +1,20 @@
+NAME:    Shuyi Zhao
+PROJECT: #4 Implementation of Banker's Algorithm
+DUE DAY: April 13, 2011
+
+Founctions:
+-void insertNum(int& n, int& m, ifstream& myInFile);
+-void insertV(int* array, int m, ifstream& myInfile);
+-void insertReq(int* requestV, int m, ifstream& myInFile);
+-void insertM(int** array, int n, int m, ifstream& myInfile);
+-void displayNum(int n, int m);
+-void displayV(int* array, int m);
+-void displayM(int** array, int n, int m);
+-void foundNeed(int** claimM, int** allocationM, int** needM, int n, int 
+m);
+-bool isSafeState(int n, int m, int* available, int** needM);
+-bool isRequestGranted(int* requestV, int* availableV, int** needM, int** 
+allocationM, int m);
+
+Test:
+Program has been test in 3 different datasets. All works fine.

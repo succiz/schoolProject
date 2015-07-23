@@ -1,0 +1,28 @@
+
+*****************************************
+The inorder traversal of tree1 is:
+150 165 182 222 228 229 250 341 350 620 646 735 741 842 943 
+The preorder traversal of tree1 is:
+735 341 229 222 165 150 182 228 250 646 620 350 842 741 943 
+The postorder traversal of tree1 is:
+150 182 165 228 222 250 229 350 620 646 341 741 943 842 735 
+
+The inorder traversal of tree2 is:
+150 165 182 222 228 229 250 341 350 620 646 735 741 842 943 
+The preorder traversal of tree2 is:
+228 150 165 222 182 229 842 350 341 250 735 646 620 741 943 
+The postorder traversal of tree2 is:
+182 222 165 150 250 341 620 646 741 735 350 943 842 229 228 
+*****************************************
+The height of tree1 is:6
+
+The height of tree2 is:7
+*****************************************
+The number of nodes in tree1 is:15
+
+The number of leaves in tree1 is:7
+*****************************************
+The number of nodes in tree2 is:15
+
+The number of leaves in tree2 is:5
+*****************************************
