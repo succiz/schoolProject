@@ -1,0 +1,29 @@
+name: Shuyi Zhao
+project: 
+myish
+
+Internal commands:
+ 
+
+-myhist:use STL vector to make pointers point to pointers
+then make loop to read every input from keboard.
+call displaycommand function.
+ 
+-myexit:call exit() and trap three signals which will cause myish exit,
+and count the numbers of the signals.
+ 
+-myAccess:determine if a file exist
+ 
+-mytimer:call setitimer function to shou"this is myish!" in 30 second.
+call mysignalinfo function.
+ 
+-mylink: link a new name to an existed file
+ 
+-myrename: rename an exited 
+
+External commands:
+-myexec;
+-myreout;
+-myrein;
+
+file problem: did not test myAccess function and mylink function.

@@ -1,0 +1,27 @@
+osproj2a:
+the program uses a thread array to creat threads 
+and pass in the number of threads to create via command line arguments.
+-void *printMessage(void *ptr) is used to display thread number on screen 
+and to excute Mutex.
+
+
+osproj2b:
+the program passes a number into thread1 and then thread1 return true or 
+false.
+The second one will take it and echo it and the number
+-void isPrime(int) is used to judge if a input number is a prime.
+-void* function1(void *ptr) is used to call isPrime function and excute 
+Mutex.
+-void* printMessage(void* ptr) is used to output the prompt and result.
+
+osproj2c:
+process0 sent message to process1.
+process1 received message from process0, modify it and sent it to 
+process2.
+process2 received message from process1, modify it and sent it to 
+process0.
+
+The whole project has been tested.
+It cost me 5 days.
+ps:I forgot the due day is Friday. Actually I'v done on Thursday except my 
+README note.... 

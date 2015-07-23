@@ -1,0 +1,44 @@
+Founction:
+-int inBuffer(int& )
+ This function is to put each item in the buffer queue
+ Return Value int                   
+ Value Parameters item1    int
+ Local Variables NONE
+-int outBuffer(int& )
+ This function is to take each item out the buffer queue
+ Return Value int                   
+ Value Parameters item2    int
+ Local Variables NONE
+-void *producer(void* ptr)
+ This function produce prime number into the buffer
+ Return Value none
+ Parameters void *pID[i]        the index of producer thread array
+ Local Variables int        item2         integer hold the prime number
+-void *consumer(void* ptr)
+ This function is to consume one item in the buffer 
+ Return Value None
+ Value Parameters void *cID[i]        the index of producer thread array
+ Local Variables int    item2         
+ the integer hold the first number in the buffer queue
+-void printMessage()
+ This function prints the arguments
+ Local values int i 
+-void primeFinder(int& )
+ This function is to produce a random prime number 
+ Return Value int                    
+ Value Paramete None
+ Local Variables int i the random prime number to return
+-bool isPrime(int )
+ This function is to indicate if the number is prime number
+ Return Value bool                    
+ Value Parameters int q   a integer need to be tested
+ Local Variables int p
+
+Test:
+1. has 2 producers and 2 consumers.
+2. each producer can produce 10 items at maximum
+3. consumers can read 20 items at maximum
+4. items are prime numbers
+5. all displays are correct
+6. test took 4 days
+
