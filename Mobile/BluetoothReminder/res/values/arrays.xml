@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+  <string-array name="displayItem">
+  	<item >30 seconds</item>
+    <item>1 minutes</item>
+    <item>2 minutes</item>
+    <item>5 minutes</item>
+  </string-array>
+  
+  <array name="displayValues">
+    <item>1</item>
+    <item>2</item>
+    <item>4</item>
+    <item>10</item>
+  </array>
+  
+  <string-array name="imageNames">
+  	<item>Classic</item>
+    <item>Cute</item>
+    <item>Normal</item>
+  </string-array>
+  
+  <array name="imageValues">
+    <item>2130837504</item>
+    <item>2130837505</item>
+    <item>2130837506</item>
+  </array>
+    
+</resources>

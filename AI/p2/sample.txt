@@ -1,0 +1,33 @@
+Robot World File: one.rwf.txt
+Room Size: 4x5
+Robot Initial Location: (3,1)
+Robot Goal Location: (0,4)
+Number of Obstacles: 4
+
+Search Method: Breadth First Search (without check)
+Nodes Explored: 299
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (0, 0), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.00914969805591
+
+Search Method: Uniform Cost Search
+Nodes Explored: 15
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (0, 0), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.000538932613568
+
+Search Method: Depth First Search (without noback checks)
+Nodes Explored: 16
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (1, 1), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.000384141441851
+
+Search Method: Greedy Best First Search
+Nodes Explored: 4
+Cannot solve it!
+
+Search Method: A Star Search
+Nodes Explored: 18
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (1, 1), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.000717226109786

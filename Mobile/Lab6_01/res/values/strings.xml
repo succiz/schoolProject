@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<string name="newAppNotificationTicker">New App to review!</string>
+	<string name="newAppNotificationText">You\'ve got a new App to review!</string>
+    <string name="newAppToast">New App Received...</string>
+    <string name="app_name">AppRater</string>
+</resources>

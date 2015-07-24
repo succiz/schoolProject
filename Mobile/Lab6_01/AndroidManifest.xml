@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="edu.calpoly.android.apprater"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <application android:icon="@drawable/icon" android:label="@string/app_name" android:debuggable="true">
+        <activity android:name=".AppRater"
+                  android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        
+		<!-- The already completed version ContentProvider and Service to test against -->
+        <provider android:name="edu.calpoly.android.appraterkey.AppContentProvider"
+		          android:authorities="edu.calpoly.android.provider.appraterkey"/>
+		<service android:enabled="true" android:name="edu.calpoly.android.appraterkey.AppDownloadService"/>
+		          
+    </application>
+    
+    <uses-sdk android:minSdkVersion="4" />
+    
+    <uses-permission android:name="android.permission.INTERNET"/>
+
+</manifest> 

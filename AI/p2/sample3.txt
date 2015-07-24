@@ -1,0 +1,41 @@
+Search Method: Breadth First Search (without check)
+Nodes Explored: 16320
+Solution Length: 10
+Solution Path: (0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)
+Solution Time: 1.22604292578
+
+Search Method: Breadth First Search
+Nodes Explored: 34
+Solution Length: 10
+Solution Path: (0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)
+Solution Time: 0.0050724499674
+
+Search Method: Uniform Cost Search
+Nodes Explored: 35
+Solution Length: 10
+Solution Path: (0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)
+Solution Time: 0.00182710312374
+
+Search Method: Depth First Search (without noback checks)
+Nodes Explored: 30
+Solution Length: 30
+Solution Path: (0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 5), (1, 4), (1, 3), (1, 2), (1, 1), (1, 0), (2, 0), (2, 1), (2, 2), (2, 3), (2, 4), (2, 5), (3, 5), (3, 4), (3, 3), (3, 2), (3, 1), (3, 0), (4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (5, 5)
+Solution Time: 0.00111960211375
+
+Search Method: Depth First Search (with checks)
+Nodes Explored: 20
+Solution Length: 20
+Solution Path: (0, 0), (0, 1), (0, 2), (0, 3), (0, 4), (0, 5), (1, 5), (2, 5), (2, 4), (2, 3), (2, 2), (2, 1), (2, 0), (3, 0), (4, 0), (4, 1), (4, 2), (4, 3), (4, 4), (4, 5), (5, 5)
+Solution Time: 0.000816097957689
+
+Search Method: Greedy Best First Search
+Nodes Explored: 10
+Solution Length: 10
+Solution Path: (0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)
+Solution Time: 0.000282433106509
+
+Search Method: A Star Search
+Nodes Explored: 672
+Solution Length: 10
+Solution Path: (0, 0), (1, 0), (2, 0), (3, 0), (4, 0), (5, 0), (5, 1), (5, 2), (5, 3), (5, 4), (5, 5)
+Solution Time: 0.55582065457215

@@ -1,0 +1,39 @@
+Search Method: Breadth First Search (without check)
+Nodes Explored: 299
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (0, 0), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.0200409993999
+
+Search Method: Breadth First Search
+Nodes Explored: 15
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (0, 0), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.00107786522714
+
+Search Method: Uniform Cost Search
+Nodes Explored: 15
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (0, 0), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.00111190307641
+
+Search Method: Depth First Search (without noback checks)
+Nodes Explored: 16
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (1, 1), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.000826633482465
+
+Search Method: Depth First Search (with checks)
+Nodes Explored: 14
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (1, 1), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.000723304297157
+
+Search Method: Greedy Best First Search
+Nodes Explored: 4
+Cannot solve it!
+
+Search Method: A Star Search
+Nodes Explored: 18
+Solution Length: 8
+Solution Path: (3, 1), (3, 0), (2, 0), (1, 0), (1, 1), (0, 1), (0, 2), (0, 3), (0, 4)
+Solution Time: 0.002030114581945
